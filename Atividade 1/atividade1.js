@@ -1,0 +1,6 @@
+alert("Olá, seja bem vindo!")
+var anoNasc = prompt("Por favor, digite o ano do seu nascimento:")
+var ano = new Date()
+var anoAgora = ano.getFullYear()
+var idade = anoAgora - parseInt(anoNasc)
+alert(`Parabéns! Você tem ou vai fazer ${idade} anos em ${anoAgora}!`)
