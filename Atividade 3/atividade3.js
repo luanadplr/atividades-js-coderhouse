@@ -8,5 +8,5 @@ function calculoDolar(){
     preco = cotacao(preco)
     preco = spread(preco)
     preco = iof(preco)
-    alert(`Sua compra em reais será aproximadamente: R$${preco.toFixed(2)}\nOBS.: Este valor não conta taxas do cartão.`)
+    alert(`Sua compra em reais será aproximadamente: R$${preco.toFixed(2)}\nOBS.: Este valor não conta taxas do cartão.\n\nCotação do dólar: R$5,0528 | Spread: 4% | IOF: 6,38%`)
 }
