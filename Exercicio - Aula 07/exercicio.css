@@ -1,0 +1,17 @@
+body{font-family: monospace;
+    padding: 40px;}
+    
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+div{background-color: #e6e5e5;
+padding: 20px; margin-top: 20px;
+border-radius: 20px;}
+
+h2{margin-bottom: 0;}
+
+p{margin-top: 10px;}
+
+#ex1-res{display:none;
+background-color: rgb(172, 199, 172);
+border-radius: 2px;}
