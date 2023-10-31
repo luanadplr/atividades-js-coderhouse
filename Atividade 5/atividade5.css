@@ -1,0 +1,13 @@
+body{font-family: monospace;
+    padding: 40px;}
+    
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+#div-Contador{text-align: center;}
+#valor{width: 70px;}
+#parcelas{width: 40px;}
+#enviar{margin-top: 15px;
+width: 150px;}
+
+#resultado{display: none;}
