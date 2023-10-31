@@ -5,13 +5,14 @@ a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 
 div{background-color: #e6e5e5;
-padding: 20px; margin-top: 20px;
+padding: 30px; margin-top: 20px;
 border-radius: 20px;}
 
-h2{margin-bottom: 0;}
+h2{margin-bottom: 0;
+margin-top: 0;}
 
 p{margin-top: 10px;}
 
-#ex1-res{display:none;
+#ex1-res, #ex2-res, #ex3-res{display:none;
 background-color: rgb(172, 199, 172);
-border-radius: 2px;}
+border-radius: 5px; padding: 10px 10px 10px 10px;}

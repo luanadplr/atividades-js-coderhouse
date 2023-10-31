@@ -12,8 +12,35 @@
         <h2>Par ou ímpar</h2>
         <p>Crie uma funcionalidade que recebe um número e verifica se ele é par ou ímpar.</p>
         <input type="number" name="numero" id="ex1-numero">
-        <button type="button" onclick="parImpar()">Enviar</button>
-        <div id="ex1-res"></div>
+        <button type="button" onclick="parImpar()">Verificar</button>
+        <div id="ex1-res"><p id="ex1-r"></p></div>
+    </div>
+    <div id="ex-2">
+        <h2>Estações do Ano</h2>
+        <p>Faça um sistema que receba um mês e informe a qual estação esse mês pertence.</p>
+        <select id="meses">
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <button type="button" onclick="estacaoAno()">Enviar</button>
+        <div id="ex2-res"><p id="ex2-r"></p></div>
+    </div>
+    <div id="ex-3">
+        <h2>Temperatura</h2>
+        <p>Escreva uma função em JavaScript que realize a conversão de uma temperatura fornecida em graus Fahrenheit (F) para Celsius (C).</p>
+        <input type="number" name="numero" id="ex3-numero" placeholder="Fº">
+        <button type="button" onclick="celsiusF()">Converter</button>
+        <div id="ex3-res"><p id="ex3-r"></p></div>
     </div>
     <script src="exercicios.js"></script>
 </body>
