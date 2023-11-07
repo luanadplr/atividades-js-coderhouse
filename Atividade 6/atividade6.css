@@ -1,0 +1,29 @@
+body{font-family: monospace; padding: 40px; 
+    background-color: rgb(249, 221, 225);}
+    
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+#div-livros{margin-top: 40px;}
+
+#numPags{width: 40px;}
+
+#enviarLivro{background-color: rgb(239, 130, 150);
+    border: none; padding:5px 10px 5px 10px; font-weight: bold; color: white;}
+
+#enviarLivro:hover{opacity: 50%;}
+
+#tabelaLivro{padding-top:20px;}
+
+thead{background-color: rgb(45, 45, 45);
+color:white;}
+
+th{padding: 10px 50px 10px 50px;}
+
+tbody{background-color: rgb(235, 235, 235);
+text-align: center;}
+
+#contagemPags{display: none;}
+#contagemPaginas{
+    background-color: rgb(255, 148, 166);
+    width: 300px; padding: 10px;}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="atividade6.css">
+</head>
+<body>
+    <a href="../index.html">< Voltar</a>
+    <div id="div-livros">
+        <h2>Livros lidos em 2023</h2>
+        <div id="campos-livros">
+            Nome do livro: <input type="text" name="nomeLivro" id="nomeLivro">
+            Nome do autor: <input type="text" name="nomeAutor" id="nomeAutor">
+            Nº de Páginas: <input type="number" name="numPags" id="numPags">
+            <button type="button" id="enviarLivro" onclick="registrarLivro()">Registrar</button>
+        </div>
+        <table id="tabelaLivro">
+            <thead>
+                <tr>
+                    <th>Nº</th>
+                    <th>Nome do Livro</th>
+                    <th>Autor</th>
+                    <th>Páginas</th>
+                </tr>
+            </thead>
+            <tbody id="tb-Livros">
+            </tbody>
+        </table>
+        <div id="contagemPags"><p id="contagemPaginas"></p></div>
+    </div>
+    <script src="atividade6.js"></script>
+</body>
+</html>
